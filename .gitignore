@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# Generated Output Files
+# Keep important summary CSVs, exclude large data files
+!model_performance_summary.csv
+!statistical_comparison.csv
+!performance_by_outlet_type.csv
+!performance_by_category.csv
+!phase1_performance_summary.csv
+*.pkl
+Visualizations/
+Visualizations_Phase1/
+BigMart.csv
+
+# Jupyter Notebooks (if created)
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# CatBoost training artifacts
+catboost_info/
+
